@@ -1,0 +1,56 @@
+{
+  "abi": [],
+  "bytecode": {
+    "object": "0x6080604052348015600f57600080fd5b50603f80601d6000396000f3fe6080604052600080fdfea2646970667358221220cf29a30bac622ddbe7222400731a38a2906f55ffbe197c7ac182d725843463b664736f6c634300080d0033",
+    "sourceMap": "64:20:5:-:0;;;;;;;;;;;;;;;;;;;",
+    "linkReferences": {}
+  },
+  "deployedBytecode": {
+    "object": "0x6080604052600080fdfea2646970667358221220cf29a30bac622ddbe7222400731a38a2906f55ffbe197c7ac182d725843463b664736f6c634300080d0033",
+    "sourceMap": "64:20:5:-:0;;;;;",
+    "linkReferences": {}
+  },
+  "ast": {
+    "absolutePath": "/Users/jeffprestes/projetos/go/src/github.com/decengame/tokens/src/Contract.sol",
+    "exportedSymbols": {
+      "Contract": [
+        2829
+      ]
+    },
+    "id": 2830,
+    "license": "UNLICENSED",
+    "nodeType": "SourceUnit",
+    "nodes": [
+      {
+        "id": 2828,
+        "literals": [
+          "solidity",
+          "0.8",
+          ".13"
+        ],
+        "nodeType": "PragmaDirective",
+        "src": "39:23:5"
+      },
+      {
+        "abstract": false,
+        "baseContracts": [],
+        "canonicalName": "Contract",
+        "contractDependencies": [],
+        "contractKind": "contract",
+        "fullyImplemented": true,
+        "id": 2829,
+        "linearizedBaseContracts": [
+          2829
+        ],
+        "name": "Contract",
+        "nameLocation": "73:8:5",
+        "nodeType": "ContractDefinition",
+        "nodes": [],
+        "scope": 2830,
+        "src": "64:20:5",
+        "usedErrors": []
+      }
+    ],
+    "src": "39:46:5"
+  }
+}
