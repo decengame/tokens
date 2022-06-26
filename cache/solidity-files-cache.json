@@ -218,9 +218,58 @@
         }
       }
     },
+    "/Users/jeffprestes/projetos/go/src/github.com/decengame/tokens/src/DecenNFT.flattened.sol": {
+      "lastModificationDate": 1656162665645,
+      "contentHash": "ebeeeaaab24d2968a8dd979fe313a841",
+      "sourceName": "src/DecenNFT.flattened.sol",
+      "solcConfig": {
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "": [
+                "ast"
+              ],
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers"
+              ]
+            }
+          },
+          "evmVersion": "london"
+        }
+      },
+      "imports": [],
+      "versionRequirement": "=0.8.13",
+      "artifacts": {
+        "Context": {
+          "0.8.13+commit.abaa5c0e.Darwin.appleclang": "DecenNFT.flattened.sol/Context.json"
+        },
+        "DecenNFT": {
+          "0.8.13+commit.abaa5c0e.Darwin.appleclang": "DecenNFT.flattened.sol/DecenNFT.json"
+        },
+        "ERC1155": {
+          "0.8.13+commit.abaa5c0e.Darwin.appleclang": "DecenNFT.flattened.sol/ERC1155.json"
+        },
+        "ERC1155TokenReceiver": {
+          "0.8.13+commit.abaa5c0e.Darwin.appleclang": "DecenNFT.flattened.sol/ERC1155TokenReceiver.json"
+        },
+        "Ownable": {
+          "0.8.13+commit.abaa5c0e.Darwin.appleclang": "DecenNFT.flattened.sol/Ownable.json"
+        },
+        "Strings": {
+          "0.8.13+commit.abaa5c0e.Darwin.appleclang": "DecenNFT.flattened.sol/Strings.json"
+        }
+      }
+    },
     "/Users/jeffprestes/projetos/go/src/github.com/decengame/tokens/src/DecenNFT.sol": {
-      "lastModificationDate": 1656162181185,
-      "contentHash": "0c997ac3ba89e9c239fe4d2d7da72e41",
+      "lastModificationDate": 1656247023214,
+      "contentHash": "1dca33d3a1b47970b088be95d0d0f544",
       "sourceName": "src/DecenNFT.sol",
       "solcConfig": {
         "settings": {

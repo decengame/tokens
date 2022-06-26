@@ -58,20 +58,4 @@ contract DecenNFT is ERC1155, Ownable {
         return boardCollectionsName[collectionID];
     }
 
-    function safeTransferFrom(
-        address from,
-        address to,
-        uint256 id,
-        uint256 amount,
-        bytes calldata data
-    ) public override virtual {
-    }
-
-    function safeBatchTransferFrom(
-        address from,
-        address to,
-        uint256[] calldata ids,
-        uint256[] calldata amounts,
-        bytes calldata data
-    ) public override virtual { }
 }
